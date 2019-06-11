@@ -1,0 +1,7 @@
+<hr>
+ <mat-form-field hideRequiredMarker floatLabel='auto' appearance='outline'>
+  <mat-label>Search for your track :</mat-label>
+  <input #text required matInput>
+</mat-form-field>
+<span> <button mat-flat-button (click)="click(text.value)"> SEARCH </button> </span>
+
